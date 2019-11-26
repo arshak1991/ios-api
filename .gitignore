@@ -1,0 +1,7 @@
+node_modules
+admin
+.env
+uploads/images
+uploads/videos
+uploads/avatars
+uploads/imgPreviews
