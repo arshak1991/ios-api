@@ -26,7 +26,7 @@ exports.registr = (req, res, next) => {
         res.status(400).json({ type: "error", messages: validation.messages })
         return;
     }
-
+    console.log("hello");
     const userData = {
         name: req.body.name,
         surname: req.body.surname,
